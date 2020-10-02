@@ -7,6 +7,8 @@ import { Component, OnInit, Input, Output, EventEmitter, OnDestroy, OnChanges, S
 })
 export class HeroComponent implements OnDestroy, OnInit, OnChanges {
 
+  // TEST
+
   @Input() name: string;
   @Output() liked = new EventEmitter();
 
